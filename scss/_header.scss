@@ -1,0 +1,60 @@
+.header {
+	width: 1400px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	color : var(--bg-white);
+
+}
+
+.nav__brand {
+    height: 70px;
+    width: 340px;
+    margin-top: 36px;
+    margin-right: 385px;
+    margin-bottom: 44px;
+    margin-left: 129px;
+
+}
+
+.nav__list {
+	display: flex;
+	
+}
+
+.nav__item {
+   padding-right: 35px;
+   position: relative;
+
+} 
+
+.nav__link {
+	margin-top: 65px;
+	position: relative;
+	display: block;
+	text-transform: uppercase;
+	color: var(--heading);
+	font-weight: bold;
+	font-family: 'Open Sans',sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 19px;
+    text-decoration: 0;
+    
+    &:hover {
+        background: #B2D235;
+        border-radius: 17px;
+    
+    }
+}
+
+@media screen and (max-width: 769px) {
+	
+}
+
+  @media screen and (max-width: 575px) {
+	
+}
+
