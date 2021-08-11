@@ -1,83 +1,83 @@
 $font :UTM BryantLG;
 
-.slider {
-	position: absolute;
-	width: 1400px;
-	height: 655px;
-	left: 0px;
-	top: 150px;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+  .slider {
+    position: absolute;
+    width: 1400px;
+    height: 655px;
+    left: 0px;
+    top: 150px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
-}
+  }
 
-.slider-header {
-	position: absolute;
-	width: 513px;
-	height: 61px;
-	left: 59px;
-	top: 204px;
+  .slider-header {
+    position: absolute;
+    width: 513px;
+    height: 61px;
+    left: 59px;
+    top: 204px;
+      font-family: $font ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.05em;
+      color: #11114E;
+
+  }
+
+  .slider-heading {
+    position: absolute;
+    width: 395px;
+    height: 61px;
+    left: 60px;
+    top: 256px;
     font-family: $font ;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 50px;
-	line-height: 61px;
-	letter-spacing: -0.05em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
     color: #11114E;
 
-}
+  }
 
-.slider-heading {
-	position: absolute;
-	width: 395px;
-	height: 61px;
-	left: 60px;
-	top: 256px;
-	font-family: $font ;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 50px;
-	line-height: 61px;
-	color: #11114E;
+  .slider-desc {
+    position: absolute;
+    width: 249px;
+    height: 50px;
+    left: 60px;
+    top: 327px;
+    font-family: $font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color: var(--text);
 
-}
+  }
 
-.slider-desc {
-	position: absolute;
-	width: 249px;
-	height: 50px;
-	left: 60px;
-	top: 327px;
-	font-family: $font;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 25px;
-	letter-spacing: -0.05em;
-	color: var(--text);
-
-}
-
-.slider-submit {
-	position: absolute;
-	width: 377px;
-	height: 70px;
-	left: 60px;
-	top: 416px;
-	background: $button;
-	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 35px;
-	font-family: $font;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 37px;
-	letter-spacing: -0.05em;
+  .slider-submit {
+    position: absolute;
+    width: 377px;
+    height: 70px;
+    left: 60px;
+    top: 416px;
+    background: $button;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    font-family: $font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.05em;
     color: var(--bg-white);
     border: 0.3px solid #FFFFFF;
-}
+  }
 
