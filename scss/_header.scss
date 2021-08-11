@@ -1,38 +1,36 @@
 .header {
-  width: 1400px;
   height: 150px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   color : var(--bg-white);
 }
 
 .nav-brand {
-  height: 70px;
-  width: 340px;
-  margin-top: 36px;
-  margin-right: 250px;
-  margin-bottom: 44px;
-  margin-left: 129px;
+  height: 65px;
+  width: 300px;
+  margin: 36px 0 44px 130px;
+  display: block;
+  max-width: 100%;
 }
 
 .nav-list {
   display: flex;
+  margin-left: 150px;
 }
 
 .nav-item {
-  padding-right: 35px;
+  padding: 0 35px;
   position: relative;
 } 
 
 .nav-link {
   margin-top: 65px;
-  position: relative;
   display: block;
   text-transform: uppercase;
   color: var(--heading);
   font-weight: bold;
-  font-family: $font;
+  font-family: var(--font);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -40,7 +38,7 @@
   text-decoration: 0;
 
   &:hover {
-    background-color: $button ;
+    background-color: var(--primary);
     border-radius: 17px;
     color: aliceblue;
   }

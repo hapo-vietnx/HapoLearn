@@ -1,36 +1,7 @@
 @font-face {
   font-family: "utm_bryantlgregular";
-  src: url(../assets/fonts/utm_bryantlg-webfont.woff2) format("woff2"),
-    url(../assets/fonts/utm_bryantlg-webfont.woff) format("woff");
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box; 
-}
-
-html {
-  font-size: 62,5%; 
-}
-
-img {
-  display: block;
-  max-width: 100%; 
-}
-
-button {
-  cursor: pointer; 
-}
-
-input,
-button,
-textarea {
-  outline: none;
-  box-shadow: none; 
+  src: url(../assets/fonts/utm_bryantlg-webfont.woff2) format("woff2"), 
+  url(../assets/fonts/utm_bryantlg-webfont.woff) format("woff"); 
 }
 
 :root {
@@ -41,60 +12,59 @@ textarea {
   --bg-light:#E5E5E5;
   --bg-dark: #505353;
   --input-border:#d3d7d9;
-  --input-text: #ffffff; 
+  --input-text: #ffffff;
+  --font:"Open Sans", sans-serif;
+  --font-family:UTM BryantLG; 
 }
 
 .header {
-  width: 1400px;
   height: 150px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   color: var(--bg-white); 
 }
 
 .nav-brand {
-  height: 70px;
-  width: 340px;
-  margin-top: 36px;
-  margin-right: 250px;
-  margin-bottom: 44px;
-  margin-left: 129px; 
+  height: 65px;
+  width: 300px;
+  margin: 36px 0 44px 130px;
+  display: block;
+  max-width: 100%; 
 }
 
 .nav-list {
-  display: flex; 
+  display: flex;
+  margin-left: 150px; 
 }
 
 .nav-item {
-  padding-right: 35px;
+  padding: 0 35px;
   position: relative; 
 }
 
 .nav-link {
   margin-top: 65px;
-  position: relative;
   display: block;
   text-transform: uppercase;
   color: var(--heading);
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
   text-decoration: 0; 
 }
-
   .nav-link:hover {
-    background-color: #B2D235;
+    background-color: var(--primary);
     border-radius: 17px;
     color: aliceblue; 
   }
 
 .slider {
   position: absolute;
-  width: 1400px;
+  width: 1440px;
   height: 655px;
   left: 0px;
   top: 150px;
@@ -112,7 +82,7 @@ textarea {
   height: 61px;
   left: 59px;
   top: 204px;
-  font-family: UTM BryantLG;
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -127,7 +97,7 @@ textarea {
   height: 61px;
   left: 60px;
   top: 256px;
-  font-family: UTM BryantLG;
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -141,7 +111,7 @@ textarea {
   height: 50px;
   left: 60px;
   top: 327px;
-  font-family: UTM BryantLG;
+  font-family: var(--font-famil);
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -156,10 +126,10 @@ textarea {
   height: 70px;
   left: 60px;
   top: 416px;
-  background: #B2D235;
+  background: var(--primary);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font-family: UTM BryantLG;
+  font-family: var(--font);
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
