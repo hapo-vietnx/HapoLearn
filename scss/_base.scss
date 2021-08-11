@@ -1,45 +1,47 @@
-  *,
-  *::after,
-  *::before {
-    margin: 0;
-    padding: 0;
-    border:  0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border:  0;
+  box-sizing: border-box;
 
-  }
+}
 
-  html {
-    font-size: 62,5%;
+html {
+  font-size: 62,5%;
 
-  }
+}
 
-  img {
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 
-  }
+}
 
-  button {
-    cursor: pointer;
+button {
+  cursor: pointer;
 
-  }
+}
 
-  input,
+input,
+button, 
   button, 
-  textarea {
-    outline: none;
-    box-shadow: none;
+button, 
+textarea {
+  outline: none;
+  box-shadow: none;
 
-  }
+}
 
-  :root {
-    --primary: #B2D235;
-    --heading: #505353;
-    --text: #505353;
-    --bg-white:#ffffff;
-    --bg-light:#E5E5E5;
-    --bg-dark: #505353;
-    --input-border:#d3d7d9;
-    --input-text: #ffffff;
+:root {
+  --primary: #B2D235;
+  --heading: #505353;
+  --text: #505353;
+  --bg-white:#ffffff;
+  --bg-light:#E5E5E5;
+  --bg-dark: #505353;
+  --input-border:#d3d7d9;
+  --input-text: #ffffff;
       
-  }
+}
