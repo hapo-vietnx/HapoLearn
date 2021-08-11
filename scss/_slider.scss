@@ -15,7 +15,7 @@ $font :UTM BryantLG;
 
 }
 
-.slider__header {
+.slider-header {
 	position: absolute;
 	width: 513px;
 	height: 61px;
@@ -24,14 +24,14 @@ $font :UTM BryantLG;
     font-family: $font ;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 45px;
+	font-size: 50px;
 	line-height: 61px;
 	letter-spacing: -0.05em;
     color: #11114E;
 
 }
 
-.slider__heading {
+.slider-heading {
 	position: absolute;
 	width: 395px;
 	height: 61px;
@@ -43,9 +43,10 @@ $font :UTM BryantLG;
 	font-size: 50px;
 	line-height: 61px;
 	color: #11114E;
+
 }
 
-.slider__desc {
+.slider-desc {
 	position: absolute;
 	width: 249px;
 	height: 50px;
@@ -61,16 +62,16 @@ $font :UTM BryantLG;
 
 }
 
-.slider_submit {
+.slider-submit {
 	position: absolute;
 	width: 377px;
 	height: 70px;
 	left: 60px;
 	top: 416px;
-	background: #B2D235;
+	background: $button;
 	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 35px;
-	font-family: UTM BryantLG;
+	font-family: $font;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
@@ -79,3 +80,4 @@ $font :UTM BryantLG;
     color: var(--bg-white);
     border: 0.3px solid #FFFFFF;
 }
+

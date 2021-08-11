@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "utm_bryantlgregular";
+  src: url(../assets/fonts/utm_bryantlg-webfont.woff2) format("woff2"), 
+  url(../assets/fonts/utm_bryantlg-webfont.woff) format("woff"); 
+
+}
 *,
 *::after,
 *::before {
@@ -54,45 +60,48 @@ textarea {
 
 }
 
-.nav__brand {
+.nav-brand {
   height: 70px;
   width: 340px;
   margin-top: 36px;
-  margin-right: 385px;
+  margin-right: 250px;
   margin-bottom: 44px;
   margin-left: 129px; 
 
 }
 
-.nav__list {
+.nav-list {
   display: flex; 
 
 }
 
-.nav__item {
+.nav-item {
   padding-right: 35px;
   position: relative; 
 
 }
 
-.nav__link {
+.nav-link {
   margin-top: 65px;
   position: relative;
   display: block;
   text-transform: uppercase;
   color: var(--heading);
   font-weight: bold;
-  font-family: 'Open Sans',sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
-  text-decoration: 0; }
-  .nav__link:hover {
-    background-color: #B2D235 !important;
-    border-radius: 10px; 
+  text-decoration: 0; 
 
 }
+  .nav-link:hover {
+    background-color: #B2D235;
+    border-radius: 17px;
+    color: aliceblue; 
+  
+  }
 
 .slider {
   position: absolute;
@@ -109,7 +118,7 @@ textarea {
 
 }
 
-.slider__header {
+.slider-header {
   position: absolute;
   width: 513px;
   height: 61px;
@@ -118,12 +127,14 @@ textarea {
   font-family: UTM BryantLG;
   font-style: normal;
   font-weight: normal;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 61px;
   letter-spacing: -0.05em;
-  color: #11114E; }
+  color: #11114E; 
 
-.slider__heading {
+}
+
+.slider-heading {
   position: absolute;
   width: 395px;
   height: 61px;
@@ -138,7 +149,7 @@ textarea {
 
 }
 
-.slider__desc {
+.slider-desc {
   position: absolute;
   width: 249px;
   height: 50px;
@@ -154,7 +165,7 @@ textarea {
 
 }
 
-.slider_submit {
+.slider-submit {
   position: absolute;
   width: 377px;
   height: 70px;
