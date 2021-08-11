@@ -1,4 +1,4 @@
-  *,
+	*,
 	*::after,
 	*::before {
 		margin: 0;
@@ -6,7 +6,7 @@
 		border:  0;
 		box-sizing: border-box;
 
- }
+	}
 
 	html {
 		font-size: 62,5%;
@@ -27,7 +27,7 @@
 	input,
 	button, 
 	textarea {
-    outline: none;
+		outline: none;
 		box-shadow: none;
 
 	}
@@ -41,5 +41,5 @@
 		--bg-dark: #505353;
 		--input-border:#d3d7d9;
 		--input-text: #ffffff;
-
+		
 	}
