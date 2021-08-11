@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: flex-start;
   color : var(--bg-white);
-
 }
 
 .nav-brand {
@@ -15,18 +14,15 @@
   margin-right: 250px;
   margin-bottom: 44px;
   margin-left: 129px;
-
 }
 
 .nav-list {
   display: flex;
-      
 }
 
 .nav-item {
   padding-right: 35px;
   position: relative;
-
 } 
 
 .nav-link {
@@ -47,6 +43,5 @@
     background-color: $button ;
     border-radius: 17px;
     color: aliceblue;
-        
   }
 }

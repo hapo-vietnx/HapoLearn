@@ -5,33 +5,26 @@
   padding: 0;
   border:  0;
   box-sizing: border-box;
-
 }
 
 html {
   font-size: 62,5%;
-
 }
 
 img {
   display: block;
   max-width: 100%;
-
 }
 
 button {
   cursor: pointer;
-
 }
 
 input,
 button, 
-  button, 
-button, 
 textarea {
   outline: none;
   box-shadow: none;
-
 }
 
 :root {
@@ -43,5 +36,5 @@ textarea {
   --bg-dark: #505353;
   --input-border:#d3d7d9;
   --input-text: #ffffff;
-      
 }
+
