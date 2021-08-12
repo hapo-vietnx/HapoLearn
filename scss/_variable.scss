@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "utm_bryantlgregular";
+  src: url(../assets/fonts/utm_bryantlg-webfont.woff2) format("woff2"),
+       url(../assets/fonts/utm_bryantlg-webfont.woff) format("woff");
+}
+
+:root {
+  --primary: #B2D235;
+  --heading: #505353;
+  --text: #505353;
+  --bg-white:#ffffff;
+  --bg-light:#E5E5E5;
+  --input-border:#d3d7d9;
+  --input-text: #ffffff;
+  --font:"Open Sans", sans-serif;
+  --font-family:UTM BryantLG;
+}
